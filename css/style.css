@@ -1,0 +1,106 @@
+/*******************************/
+/* HEADER */
+/*******************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edd5d9;
+
+  /* To make header sticky */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 3.2rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #c16c79;
+}
+
+/*******************************/
+/* HERO SECTION */
+/*******************************/
+
+.hero-text-box {
+  padding: 0 0 0 3.2rem;
+}
+
+.hero-section {
+  background-color: #edd5d9;
+  padding: 4.8rem 0 13rem 0;
+  /* position: relative; */
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+/* .box {
+  width: 90rem;
+  height: 35rem;
+  background-color: #c16c79;
+  position: absolute;
+  left: 0;
+  top: 20rem;
+}
+
+.hero-text-box {
+  z-index: 9999;
+} */
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+  color: #222;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/*******************************/
+/* Features Section */
+/*******************************/
+.features {
+  padding: 8rem 0;
+}
+
+.feature-title {
+  padding-bottom: 1.2rem;
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
