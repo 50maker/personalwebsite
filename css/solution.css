@@ -23,23 +23,6 @@
 }
 
 .profile-img {
+  border-radius: 50%;
   height: 100px;
-  border-radius: 50%;
-}
-
-.img-fluid {
-  max-width: 75%;
-}
-
-.pebbles {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.logo img {
-  height: 30px;
-}
-
-.dog_img {
-  border-radius: 50%;
 }
