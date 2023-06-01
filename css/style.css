@@ -57,6 +57,26 @@ body {
 /***********************/
 /* GENERAL REUSEABLE COMPONENTS */
 /***********************/
+.container {
+  /* 1140 px */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .heading-primary {
   font-size: 4.4rem;
   font-weight: 700;
@@ -87,6 +107,7 @@ body {
 .btn--full:active {
   background-color: #7585b0;
 }
+
 /***********************/
 /* HEADER SECTION  */
 /***********************/
@@ -137,16 +158,10 @@ body {
 .section-hero {
   background-color: #f3f4f9;
   padding: 0;
+  padding-bottom: 3.2rem;
 }
 
 .hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.4rem;
   align-items: center;
 }
 
@@ -157,5 +172,91 @@ body {
 }
 
 .hero-img {
-  width: 100%;
+  height: 50rem;
+}
+
+/***********************/
+/* FEATURE SECTION  */
+/***********************/
+.feature-section {
+  background-color: #cdd4e7;
+}
+
+.feature {
+  font-size: 4rem;
+}
+
+.feature-section div div {
+  padding: 9.6rem 0;
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cdd4e7;
+}
+
+.feature-logo {
+  max-width: 3.6rem;
+  padding-bottom: 0.8rem;
+}
+
+.feature-head {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+.feature-text {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+}
+
+/***********************/
+/* Portfolio SECTION  */
+/***********************/
+
+.portfolio-section {
+  padding: 9.6rem 0;
+  background-color: #a8b4d6;
+}
+
+.port-subheading {
+  padding: 1.6rem 3.6rem;
+
+  display: inline-block;
+  border-radius: 0 5px 5px 0;
+  background-color: #8294c4;
+  color: #333;
+  font-size: 2.4rem;
+}
+
+.port-box {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.port-box-left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.portfolio-img {
+  width: 20rem;
+  border: #68769d solid;
+  background-color: #8294c4;
+}
+
+.projects-text {
+  color: #333;
+  font-size: 1.8rem;
+  text-align: justify;
+  margin-left: 2rem;
 }

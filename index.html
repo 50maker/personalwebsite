@@ -25,16 +25,16 @@
       />
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Sec 1</a></li>
-          <li><a class="main-nav-link" href="#">Sec 2</a></li>
-          <li><a class="main-nav-link" href="#">Sec 3</a></li>
-          <li><a class="main-nav-link" href="#">Sec 4</a></li>
+          <li><a class="main-nav-link" href="#">Home</a></li>
+          <li><a class="main-nav-link" href="#">Blog</a></li>
+          <li><a class="main-nav-link" href="#">Contact</a></li>
+          <li><a class="main-nav-link" href="#">Profile</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="section-hero">
-        <div class="hero">
+        <div class="hero container grid grid--2-cols">
           <div class="hero-text-box">
             <h1 class="heading-primary">This is me Milan KC.</h1>
             <p class="hero-description">
@@ -44,11 +44,85 @@
           </div>
           <div class="hero-img-box">
             <img
-              src="./img/Gallery/laptop.svg"
+              src="./img/gallery/heroPhoto.png"
               class="hero-img"
               alt="Laptop photo"
             />
           </div>
+        </div>
+      </section>
+
+      <section class="feature-section">
+        <div class="container grid grid--3-cols feature">
+          <div class="feature-box">
+            <img
+              src="./img/logo/hex.svg"
+              class="feature-logo"
+              alt="Logo of design"
+            />
+            <p class="feature-head">Web Design</p>
+            <p class="feature-text">
+              Creating beautiful UI/UX for mobile and desktop with figma.
+            </p>
+          </div>
+          <div class="feature-box">
+            <img
+              src="./img/logo/puzzle.svg"
+              class="feature-logo"
+              alt="Logo of puzzle"
+            />
+            <p class="feature-head">Web Development</p>
+            <p class="feature-text">
+              Creating responsive websites with HTML,CSS.
+            </p>
+          </div>
+          <div class="feature-box">
+            <img
+              src="./img/logo/pc.svg"
+              class="feature-logo"
+              alt="Logo of pc"
+            />
+            <p class="feature-head">Graphics Design</p>
+            <p class="feature-text">
+              Creating beautiful logos ,art and illustrations.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio-section">
+        <h2 class="port-subheading">Portfolio</h2>
+        <div class="container port-box">
+          <img
+            src="./img/Gallery/laptop.svg"
+            alt="hero of another site"
+            class="portfolio-img"
+          />
+          <p class="projects-text">
+            This is my first website project with the use of Bootstrap.<br />
+            Logo is imported from unsplash.
+          </p>
+        </div>
+        <div class="container port-box-left">
+          <p class="projects-text">
+            This is my first website project with the use of Bootstrap.<br />
+            Logo is imported from unsplash.
+          </p>
+          <img
+            src="./img/Gallery/laptop.svg"
+            alt="hero of another site"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="container port-box">
+          <img
+            src="./img/Gallery/laptop.svg"
+            alt="hero of another site"
+            class="portfolio-img"
+          />
+          <p class="projects-text">
+            This is my first website project with the use of Bootstrap.<br />
+            Logo is imported from unsplash.
+          </p>
         </div>
       </section>
     </main>
