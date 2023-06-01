@@ -252,6 +252,7 @@ body {
   width: 20rem;
   border: #68769d solid;
   background-color: #8294c4;
+  cursor:pointer;
 }
 
 .projects-text {
