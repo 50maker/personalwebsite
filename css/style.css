@@ -252,12 +252,20 @@ body {
   width: 20rem;
   border: #68769d solid;
   background-color: #8294c4;
-  cursor:pointer;
+  cursor: pointer;
+}
+
+.width-edit{
+  width:20rem;
+  height: 14.1rem;
 }
 
 .projects-text {
-  color: #333;
+  color: #fff;
   font-size: 1.8rem;
   text-align: justify;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
+
+  background-color: #2B2A4C;
+  padding:4rem 2rem;
 }
